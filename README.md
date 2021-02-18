@@ -5,7 +5,8 @@ Open Source SMT Pick and Place Hardware and Software [Orignal Project](http://gi
 
 ## Fork Notes
 
-The orignal project have not compatible with aarch64 by now, so this branch only focus on aarch64 platform like Jetson nano.
+The orignal project have not compatible with aarch64 by now(2/18/2021), so this branch only focus on aarch64 platform like Jetson nano.
+
 OpenPnP is stable and in wide use. It is still under heavy development and new features are added continuously. See the [Downloads](http://openpnp.org/downloads) page to get started.
 
 ## Usage
