@@ -1,4 +1,3 @@
-![OpenPNP Logo](https://raw.githubusercontent.com/openpnp/openpnp-logo/develop/logo_small.png)
 
 # OpenPnP
 
@@ -19,6 +18,32 @@ If you would like to keep up with our progress you can
 [Watch this project on GitHub](http://github.com/openpnp/openpnp), check out
 [our Twitter](http://twitter.com/openpnp), [join the discussion group](http://groups.google.com/group/openpnp),
 or come chat with us on [Discord](https://discord.gg/EmsrFVx).
+
+## Usage
+
+This project fork from https://github.com/openpnp/openpnp. The orignal project have not compatible with aarch64 by now, so this branch only focus on aarch64 platform like Jetson nano.
+
+First, please build and install opencv4.5 for your jetson nano.
+
+then, install opencv java package
+git clone https://github.com/LittleBoyPnP/opencv.git
+cd ./opencv
+mvn install
+
+git clone https://github.com/LittleBoyPnP/openpnp.git
+cd ./openpnp
+mvn package -Dmaven.test.skip=true
+./openpnp.sh
+
+Enjoy!
+
+## Support
+
+The following platforms are supported by this package:
+
+OS | Architecture
+--- | ---
+Linux | aarch64
 
 ## Contributing
 
